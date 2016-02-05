@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grunt for MEAN!</title>
+    
+    <!--////this is the server only grunt file build////
+    <link rel="stylesheet" href="src/css/styles.less">
+    
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+    <script src="src/js/controllers/MainCtrl.js"></script>
+    <script src="src/js/services/TestService.js"></script>
+    <script src="src/js/app.js"></script>
+    end server only grunt file build////-->
+
+   
+    <!--////see below....reduced from above using more involved grunt file...see below////-->
+    <link rel="stylesheet" href="dist/css/style.min.css">
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+    <script src="dist/js/app.min.js"></script>
+
+</head>
+<body ng-app="gruntApp" ng-controller="mainController">
+    This is working...
+    
+    <p>{{ message }}</p>
+    
+</body>
+</html>
